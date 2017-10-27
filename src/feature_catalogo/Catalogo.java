@@ -56,7 +56,7 @@ package feature_catalogo;
 		            System.out.println("Codigo: "+codigo);
 		            System.out.println("Tamaño: "+tamaño);
 		            System.out.println("Año: "+precio);
-		            System.out.println("--------------------------------");
+		            System.out.println("------------------------------------");
 		        }  
 		
 		public static void main(String[] args) {
@@ -64,5 +64,7 @@ package feature_catalogo;
 			
 			Catalogo Producto1 = new Catalogo (00112233, 1, 20);
 			Producto1.desplegarDatos(" Pera");
+			Catalogo Producto2 = new Catalogo (44556612, 12, 50);
+			Producto2.desplegarDatos(" Manzanas Rojas");
 		}
 }
