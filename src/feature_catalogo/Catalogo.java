@@ -10,13 +10,13 @@ package feature_catalogo;
 		
 		//ATIBUTOS
 			private int codigo;
-			private int tamaño;
+			private int tamaÃ±o;
 			private int precio;
 		        
 		        //OVERLOADING DE CONSTRUCTORES
-		        public Catalogo (int codigo, int tamaño, int precio){
+		        public Catalogo (int codigo, int tamaÃ±o, int precio){
 		        this.codigo = codigo;
-		        this.tamaño = tamaño;
+		        this.tamaÃ±o = tamaÃ±o;
 		        this.precio = precio;
 		        }
 		           
@@ -32,12 +32,12 @@ package feature_catalogo;
 		        this.codigo = codigo;
 		    }
 		    
-		    public int getTamaño() {
-		        return tamaño;
+		    public int getTamaÃ±o() {
+		        return tamaÃ±o;
 		    }
 		    
-		    public void setTamaño(int tamaño) {
-		        this.tamaño = tamaño;
+		    public void setTamaÃ±o(int tamaÃ±o) {
+		        this.tamaÃ±o = tamaÃ±o;
 		    }
 	
 
@@ -54,8 +54,8 @@ package feature_catalogo;
 		            System.out.println("Nombre del producto:"+Quien);
 		            System.out.println( "Ingresar datos del producto:" );
 		            System.out.println("Codigo: "+codigo);
-		            System.out.println("Tamaño: "+tamaño);
-		            System.out.println("Año: "+precio);
+		            System.out.println("TamaÃ±o: "+tamaÃ±o);
+		            System.out.println("AÃ±o: "+precio);
 		            System.out.println("------------------------------------");
 		        }  
 		
@@ -66,5 +66,9 @@ package feature_catalogo;
 			Producto1.desplegarDatos(" Pera");
 			Catalogo Producto2 = new Catalogo (44556612, 12, 50);
 			Producto2.desplegarDatos(" Manzanas Rojas");
+			Catalogo Producto1 = new Catalogo (00112233, 3, 30);
+			Producto1.desplegarDatos(" Fresa");
+			Catalogo Producto2 = new Catalogo (44556612, 30, 50);
+			Producto2.desplegarDatos(" Platano");
 		}
 }
